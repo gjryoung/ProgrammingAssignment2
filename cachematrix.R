@@ -42,3 +42,17 @@ cacheSolve <- function(x, ...) {
   x$setinverse(m)
   m
 }
+
+## how to test this function
+## how to test this function
+## x <- matrix(1:4, nrow = 2, ncol = 2)
+## m <- makeCacheMatrix(x)
+## m$get()
+##      [,1]  [,2]
+## [1,]    1    3
+## [2,]    2    4
+## s <-cacheSolve(m)
+## print(s)
+##       [,1] [,2]
+## [1,]   -2  1.5
+## [2,]    1 -0.5
